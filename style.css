@@ -60,7 +60,9 @@ section {
 #pf-img img {
   border: 1px solid #ccc;
   border-radius: 50%;
-  box-shadow: 5px 5px #eee;
+  box-shadow: 5px 5px rgb(255, 255, 255, 0.5);
+  width: 100px;
+  height: 100px;
 }
 
 /* 왼쪽, 자기 소개 부분 */
