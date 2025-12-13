@@ -1,83 +1,83 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>shine0987</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-  <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume | Ko Hyeon Ji</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div id="container">
-    <header>
-      <!-- 이름을 가장 위쪽에 -->
-      <h1>KoHyeonJi</h1>
-      <h2>Backend Developer</h2>
+  <div class="container">
+    <header class="header">
+      <img src="pf.png" alt="profile" class="avatar" />
+      <h1>Ko Hyeon Ji</h1>
+      <p class="role">Backend & Full-Stack Developer</p>
+      <p class="summary">
+        summary
+      </p>
+      <div class="links">
+        <a href="mailto:hyeonjik269@gmail.com">Email</a>
+        <a href="https://github.com/shine0987" target="_blank">GitHub</a>
+        <a href="https://mackerel-study.tistory.com" target="_blank">Blog</a>
+      </div>
     </header>
-    <!-- 내용 -->
-    <main>
-      <!-- 화면을 좌우로 나눔 -->
-      <article id="left">
-        <div id="pf-img">
-          <img src="./pf.png" alt="프로필 이미지">
-        </div>
 
-        <!-- 자기 소개 -->
-        <section>
-          <!-- 소개 내용은 <p>와 </p> 사이의 부분을 수정하세요 -->
-          <p>I am a university student and learning programming. My field is a backend developer! Have a good day.</p>
+    <section class="section">
+      <h2>Skills</h2>
+      <div class="skills">
+        <span>python</span>
+        <span>Java Script</span>
+        <span>Java</span>
+        <span>Spring Boot</span>
+        <span>MySQL</span>
+        <span>AWS (EC2, S3)</span>
+        <span>Git / GitHub</span>
+      </div>
+    </section>
 
-          <!-- sns 링크 부분 -->
-          <!-- href="" 부분의 링크와 내용을 수정하세요 -->
-          <ul id="sns">
-            <li>
-              <i class="fa fa-envelope" aria-hidden="true"></i>
-              <a href="mailto:rhguswl4@naver.com">rhguswl4@naver.com</a>              
-        </li>
-            <li>
-              <i class="fab fa-github" aria-hidden="true"></i>
-              <a href="https://github.com/shine0987">shine0987</a>              
-            </li>
-            <li>
-              <i class="fab fa-linkedin" aria-hidden="true"></i>
-              <a href="https://mackerel-study.tistory.com">mackerel-study-tistory</a>
-            </li>
-            </ul>
-        </section>
-      </article>
+    <section class="section">
+      <h2>Experience & Projects</h2>
+      <div class="card">
+        <h3>ForForeigner Web</h3>
+        <p class="period">2025.04 - 2025.09</p>
+        <ul>
+          <li>외국인을 위한 한국 생활 정보 제공 프로젝트</li>
+          <li>Spring Boot 기반 백엔드 기능 구현</li>
+          <li>AWS EC2 + S3 배포 및 HTTPS 적용</li>
+        </ul>
+      </div>
 
-      <article id="right">
-        <section>
-          <h2>경력(work)</h2>
-          <!-- 경력 내용 수정 -->
-            <dl>
-              <dt>회사 A : 2018 ~ 2020</dt>
-              <dd>회사에서 맡았던 업무</dd>
-              <dd>기타 사항</dd>
-            </dl>
-            <dl>
-              <dt>회사 B : 2020 ~ 2022</dt>
-              <dd>회사에서 맡았던 업무</dd>              
-            </dl>  
-        </section>
-        <section>
-          <h2>다룰 수 있는 기술(skills)</h2>
-          <!-- 자신있는 기술 수정 -->
-          <p>HTML/CSS</p>
-          <p>Javascritpt</p>
-          <p>Java</p>
-          <p>Github</p>
-        </section>
-        <section>
-          <h2>학력(education)</h2>
-          <!-- 학력 수정 -->
-          <p>2024.07 - XX 대학교 재학(전공: 소프트웨어융합)</p>
-          <p>2023.02 - XX 고등학교 졸업</p>
-          <p> ... </p>
-        </section>
-      </article>
-    </main>
+      <div class="card">
+        <h3>Digital Signage</h3>
+        <p class="period">2025.09 - 2025.12</p>
+        <ul>
+          <li>시각 정보 기반으로 사용자의 음성을 정확하게 인식하여, 디지털 사이니지를 편리하게 이용할 수 있도록 하는 음성 전처리 프로젝트</li>
+          <li>python 기반 Computer Vision 기능 구현</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>DeepLearning Posture Correction</h3>
+        <p class="period">2025.09 - 2025.12</p>
+        <ul>
+          <li>Mediapipe Pose를 활용하여 사용자의 앉은 자세(정상/비정상)을 판별하는 딥러닝 응용 프로젝트</li>
+          <li>PyQt 기반 프론트엔드 기능 구현</li>
+        </ul>
+      </div>
+
+    </section>
+
+    <section class="section">
+      <h2>Education</h2>
+      <div class="card">
+        <p>신한대학교 소프트웨어융합학과 재학</p>
+        <p class="period">2023.03 – Present</p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© 2025 Ko Hyeon Ji</p>
+    </footer>
   </div>
 </body>
 </html>
